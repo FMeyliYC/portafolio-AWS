@@ -1,22 +1,19 @@
 {
   "name": "portafolio-aws",
   "version": "1.0.0",
-  "description": "Proyecto de Innovación - Gestión de Inventario en AWS",
+  "description": "Portafolio SENATI VI Semestre",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": ["aws", "senati", "software-engineering"],
   "author": "Frank Meyli",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.1008.0",
-    "@aws-sdk/client-s3": "^3.1008.0",
-    "@aws-sdk/lib-dynamodb": "^3.1008.0",
-    "dotenv": "^17.3.1",
+    "@aws-sdk/client-dynamodb": "^3.500.0",
+    "@aws-sdk/client-s3": "^3.500.0",
+    "@aws-sdk/lib-dynamodb": "^3.500.0",
     "ejs": "^3.1.10",
-    "express": "^4.21.2",
+    "express": "^4.18.2",
     "multer": "^1.4.5-lts.1",
     "multer-s3": "^3.0.1"
   }
